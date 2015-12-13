@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Interface_Demo.Lib
+﻿namespace Interface_Demo.Lib
 {
   public abstract class AbstractBaseClass
     {
@@ -24,6 +18,6 @@ namespace Interface_Demo.Lib
             return Sides * Length;
         }
         public abstract int CalcArea();
-        
+
     }
 }
